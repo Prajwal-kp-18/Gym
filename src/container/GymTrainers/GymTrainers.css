@@ -1,0 +1,87 @@
+.app__trainers{
+    height: 100%;
+    width: 100%;
+    padding-bottom: 30px;
+    background: url(../../assets/background.jpg);
+    
+}
+.app__trainers-contet{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+.app__trainers-img{
+background: url(../../assets/trainer-bg.png);  
+  width: 300px;  
+  opacity: .7;
+  filter: blur(.5px);
+}
+
+.app__trainers-img:hover{
+    transition: .5s ease-in-out;
+    opacity: 1;
+    filter: blur(0);
+}
+
+.app__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__trainers-img img{
+    height: 300px;
+    
+}
+
+.app__trainers-details{
+    background-color: white;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.app__trainers-details p{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.app__trainers-details h5{
+    color: grey;
+    font-weight: lighter;
+    font-size: 17px;
+}
+
+.app__icons{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-grow: .5;
+    width: 150px;
+    height: 40px;
+   
+}
+.app__icons i{
+    display: flex;
+    padding-right: 15px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.app__icons i:hover{
+    transition: .5s;
+    color: red;
+}

@@ -1,0 +1,117 @@
+.app__header {
+  position: relative;
+  margin-top: 0;
+  padding-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  position: absolute;
+}
+.icons i {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  left: 1000px;
+}
+.app__header img {
+  max-width: 100%;
+  height: 100vh;
+}
+.app__header-content_about-large {
+  position: absolute;
+  left: 60%;
+}
+
+p {
+  color: red;
+  font-weight: bold;
+}
+.bolder {
+  font-weight: bolder;
+  font-size: xx-large;
+  padding-bottom: 2px;
+}
+
+section {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 20px;
+  color: white;
+}
+.conatainer {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  align-items: center;
+  color: white;
+}
+
+@media screen and (max-width: 2000px) {
+  .app__header-content_about-small {
+    display: none;
+  }
+  .share {
+    rotate: 90deg;
+    display: inline-flex;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .app__header-content_about-large {
+    display: none;
+  }
+  .app__header img {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+  .share {
+    display: none;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .app__header,
+  .app__header-content_about-small {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .share {
+    display: none;
+  }
+  .app__header-content_about-large {
+    display: none;
+  }
+  .app__header img {
+    height: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    mix-blend-mode: luminosity;
+  }
+  .app__header-content_about-small button {
+    width: 300px;
+    margin-top: 20px;
+  }
+}
+.app__header-content_about-large button {
+  width: 300px;
+  margin-top: 20px;
+}

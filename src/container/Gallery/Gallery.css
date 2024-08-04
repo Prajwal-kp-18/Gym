@@ -1,0 +1,94 @@
+.app__gallery{
+    height: 100%;
+    width: 100%;
+    padding-bottom: 30px;
+    background: url(../../assets/background.jpg);
+}
+.app__gallery-title{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.app__gallery-title h3{
+    color: white;
+    background-color: red;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    border-radius: 60px 0 60px 0;
+}
+
+.app__gallery-content h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: xx-large;
+    font-weight:bolder;
+}
+.app__gallery-content h4{
+    color: grey;
+    display: flex;
+    justify-content:center ;
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 30px;
+
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.app__gallery-image > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__gallery-image > div >img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.app__gallery-image{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
+    width: 900px;
+ 
+}
+
+.app__gallery-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__gallery-bg{
+    background: url(../../assets/bg-icon.png);
+}
+
+@media screen and (max-width: 1150px){
+    .app__gallery-image{
+        width: 600px;
+        
+    }
+}
+@media screen and (max-width: 650px){
+    .app__gallery-image{
+        width: 300px;
+        
+    }
+}

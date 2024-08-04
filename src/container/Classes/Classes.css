@@ -1,0 +1,63 @@
+.app__classes-main{
+    height: 100%;
+    width: 100%;
+    padding-bottom: 30px;
+    background: url(../../assets/background.jpg);
+    
+}
+
+
+.app__classes-img img{
+    height: 300px;
+    width: 330px;
+    padding-bottom: 0;
+    opacity:.7;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+
+}
+.app__classes-img img:hover{
+    transition: .4s ease-in-out;
+    opacity: 1;
+}
+
+.app__classes-content{
+    width: 330px;
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+.app__classes-content h2{
+    font-size: 35px;
+}
+.app__name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 5px;
+}
+
+.app__name h3{
+    padding-right: 10px;
+}
+
+.app__classes-card{
+    padding-bottom:40px ;
+}
+
+.app__button{
+    width: 250px;
+}
+
+.app__classes-time{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
