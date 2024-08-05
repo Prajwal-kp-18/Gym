@@ -58,7 +58,7 @@ const Pricing = () => {
           <img src={images.price3} alt="pricing" />
           <p>Advanced</p>
           <h3>
-            ₹2200<small> /month</small>
+            ₹2500<small> /month</small>
           </h3>
           <h5>Free hand</h5>
           <h5>Gym Fitness</h5>
